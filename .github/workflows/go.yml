@@ -27,6 +27,7 @@ jobs:
           - s05-kv-store
           - s06-embeddings
           - s07-vector-store
+          - s08-graph-store
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5

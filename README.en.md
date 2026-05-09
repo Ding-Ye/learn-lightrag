@@ -59,7 +59,7 @@ Bilingual Markdown rendering with an upstream source pane on the side.
 | s05 | [KV store with filter_keys](docs/en/s05-kv-store.md) | JSON persistence + per-key locking + FilterMissing | ✅ |
 | s06 | [Embedding provider with batching](docs/en/s06-embeddings.md) | 128 batch + retry + Dim() introspection | ✅ |
 | s07 | [Cosine-similarity vector store](docs/en/s07-vector-store.md) | Three indices (chunks/entities/relations) + thresholding | ✅ |
-| s08 | Adjacency graph store + BFS | Undirected graph + degree-priority BFS subgraph | ⏳ |
+| s08 | [Adjacency graph store + BFS](docs/en/s08-graph-store.md) | Undirected graph + degree-priority BFS subgraph | ✅ |
 | s09 | Entity/relation extraction + gleaning | Delimiter parsing + multi-round continuation | ⏳ |
 | s10 | Map-reduce summarization | Threshold decision + recursive LLM merge | ⏳ |
 | s11 | Dual-level retrieval, four modes | naive / local / global / hybrid | ⏳ |

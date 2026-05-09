@@ -8,4 +8,5 @@ use (
 	./agents/s05-kv-store
 	./agents/s06-embeddings
 	./agents/s07-vector-store
+	./agents/s08-graph-store
 )

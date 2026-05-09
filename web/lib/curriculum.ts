@@ -82,7 +82,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "邻接图存储与子图",
       en: "Adjacency graph store and subgraph BFS",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s09-extraction",
