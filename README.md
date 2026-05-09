@@ -59,7 +59,7 @@ npm run dev    # http://localhost:3000
 |---|---|---|---|---|
 | M | [多模型接入指南](docs/zh/multi-model.md) | [Multi-model guide](docs/en/multi-model.md) | OpenAI / Anthropic / Bedrock / Ollama 一键切换 | ⏳ |
 | s01 | [最小 RAG 闭环](docs/zh/s01-minimum-loop.md) | [Minimum RAG loop](docs/en/s01-minimum-loop.md) | 端到端 5 阶段管道（chunk → embed → store → retrieve → complete） | ✅ |
-| s02 | 提供方接口 | Provider interface | OpenAI 聊天补全 + 重试 + mock provider | ⏳ |
+| s02 | [提供方接口](docs/zh/s02-provider.md) | [Provider interface](docs/en/s02-provider.md) | OpenAI 聊天补全 + 重试 + mock provider | ✅ |
 | s03 | 文档状态机 | Document status state machine | PENDING → PROCESSING → PROCESSED/FAILED | ⏳ |
 | s04 | 基于 token 的切分 | Token-based chunking | tiktoken + 1200/100 滑窗 | ⏳ |
 | s05 | 键值存储与过滤 | KV store with filter_keys | JSON 持久化 + per-key 锁 + FilterMissing | ⏳ |

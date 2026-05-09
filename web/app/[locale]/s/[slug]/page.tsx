@@ -80,6 +80,7 @@ function guessUpstreamFile(slug: string): string | null {
   // Each session's subagent appends its slug here when it lands its chapter.
   const map: Record<string, string> = {
     "s01-minimum-loop": "s01-lightrag.py",
+    "s02-provider": "s02-openai.py",
   };
   return map[slug] ?? null;
 }

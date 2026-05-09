@@ -34,7 +34,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "提供方接口 (OpenAI 聊天补全)",
       en: "Provider interface (OpenAI chat completion)",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s03-doc-status",
