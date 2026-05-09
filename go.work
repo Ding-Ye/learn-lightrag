@@ -5,4 +5,5 @@ use (
 	./agents/s02-provider
 	./agents/s03-doc-status
 	./agents/s04-chunking
+	./agents/s05-kv-store
 )

@@ -55,7 +55,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s05-kv-store",
     num: "s05",
     title: { zh: "键值存储与过滤", en: "KV store with filter_keys" },
-    available: false,
+    available: true,
   },
   {
     slug: "s06-embeddings",
