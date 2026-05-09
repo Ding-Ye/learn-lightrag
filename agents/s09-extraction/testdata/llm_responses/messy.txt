@@ -1,0 +1,6 @@
+("entity"<|#|>"Apple Inc."<|#|>"organization"<|#|>"a multinational technology company headquartered in Cupertino.")
+entity<|#|>Steve Jobs<|#|>person<|#|>co-founder of Apple Inc., known for the iPhone launch.
+relation<|#|>Steve Jobs<|#|>Apple Inc.<|#|>founder,leadership<|#|>Steve Jobs co-founded and led Apple Inc.
+not_a_real_record_kind<|#|>foo<|#|>bar
+entity<|#|>partial_only_two_fields
+<|COMPLETE|>

@@ -1,0 +1,6 @@
+entity<|#|>Tokyo<|#|>location<|#|>the capital of Japan.
+entity<|#|>Mt. Fuji<|#|>location<|#|>the highest mountain in Japan.
+entity<|#|>Shinkansen<|#|>concept<|#|>Japan's high-speed railway network.
+relation<|#|>Tokyo<|#|>Mt. Fuji<|#|>geography,landmark<|#|>Mt. Fuji is visible from Tokyo on clear days.
+relation<|#|>Tokyo<|#|>Shinkansen<|#|>infrastructure<|#|>The Shinkansen network connects Tokyo to major Japanese cities.
+<|COMPLETE|>

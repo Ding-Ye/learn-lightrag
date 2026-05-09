@@ -60,7 +60,7 @@ Bilingual Markdown rendering with an upstream source pane on the side.
 | s06 | [Embedding provider with batching](docs/en/s06-embeddings.md) | 128 batch + retry + Dim() introspection | ✅ |
 | s07 | [Cosine-similarity vector store](docs/en/s07-vector-store.md) | Three indices (chunks/entities/relations) + thresholding | ✅ |
 | s08 | [Adjacency graph store + BFS](docs/en/s08-graph-store.md) | Undirected graph + degree-priority BFS subgraph | ✅ |
-| s09 | Entity/relation extraction + gleaning | Delimiter parsing + multi-round continuation | ⏳ |
+| s09 | [Entity/relation extraction + gleaning](docs/en/s09-extraction.md) | Delimiter parsing + multi-round continuation | ✅ |
 | s10 | Map-reduce summarization | Threshold decision + recursive LLM merge | ⏳ |
 | s11 | Dual-level retrieval, four modes | naive / local / global / hybrid | ⏳ |
 | s_full | End-to-end integration | 16-step trace + full-stack diagram | ⏳ |

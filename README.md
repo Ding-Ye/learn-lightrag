@@ -66,7 +66,7 @@ npm run dev    # http://localhost:3000
 | s06 | [嵌入提供方与批处理](docs/zh/s06-embeddings.md) | [Embedding provider with batching](docs/en/s06-embeddings.md) | 128 batch + 重试 + Dim() 内省 | ✅ |
 | s07 | [余弦相似向量库](docs/zh/s07-vector-store.md) | [Cosine-similarity vector store](docs/en/s07-vector-store.md) | 三个独立索引（chunks/entities/relations）+ 阈值 | ✅ |
 | s08 | [邻接图存储与子图](docs/zh/s08-graph-store.md) | [Adjacency graph store + BFS](docs/en/s08-graph-store.md) | 无向图 + degree-priority BFS 子图 | ✅ |
-| s09 | 实体关系抽取与 gleaning | Entity/relation extraction + gleaning | 分隔符解析 + 多轮续写循环 | ⏳ |
+| s09 | [实体关系抽取与 gleaning](docs/zh/s09-extraction.md) | [Entity/relation extraction + gleaning](docs/en/s09-extraction.md) | 分隔符解析 + 多轮续写循环 | ✅ |
 | s10 | 描述归并 | Map-reduce summarization | 阈值决策 + 递归 LLM 归并 | ⏳ |
 | s11 | 双层检索四种模式 | Dual-level retrieval, four modes | naive / local / global / hybrid | ⏳ |
 | s_full | 端到端集成 | End-to-end integration | 16 步执行轨迹 + 全栈架构图 | ⏳ |

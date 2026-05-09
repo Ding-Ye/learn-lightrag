@@ -91,7 +91,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "实体关系抽取与 gleaning",
       en: "Entity/relation extraction with gleaning",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s10-summarization",

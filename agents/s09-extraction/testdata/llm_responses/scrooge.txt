@@ -1,0 +1,4 @@
+entity<|#|>Scrooge<|#|>person<|#|>a miserly old businessman who hates Christmas.
+entity<|#|>Marley<|#|>person<|#|>Scrooge's deceased former business partner.
+relation<|#|>Scrooge<|#|>Marley<|#|>partnership<|#|>Scrooge and Marley were business partners for many years.
+<|COMPLETE|>

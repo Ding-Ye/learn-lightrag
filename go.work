@@ -9,4 +9,5 @@ use (
 	./agents/s06-embeddings
 	./agents/s07-vector-store
 	./agents/s08-graph-store
+	./agents/s09-extraction
 )
