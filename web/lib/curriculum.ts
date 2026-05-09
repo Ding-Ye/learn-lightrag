@@ -73,7 +73,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "余弦相似向量库",
       en: "Cosine-similarity vector store",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s08-graph-store",

@@ -64,7 +64,7 @@ npm run dev    # http://localhost:3000
 | s04 | [基于 token 的切分](docs/zh/s04-chunking.md) | [Token-based chunking](docs/en/s04-chunking.md) | tiktoken + 1200/100 滑窗 | ✅ |
 | s05 | [键值存储与过滤](docs/zh/s05-kv-store.md) | [KV store with filter_keys](docs/en/s05-kv-store.md) | JSON 持久化 + per-key 锁 + FilterMissing | ✅ |
 | s06 | [嵌入提供方与批处理](docs/zh/s06-embeddings.md) | [Embedding provider with batching](docs/en/s06-embeddings.md) | 128 batch + 重试 + Dim() 内省 | ✅ |
-| s07 | 余弦相似向量库 | Cosine-similarity vector store | 三个独立索引（chunks/entities/relations）+ 阈值 | ⏳ |
+| s07 | [余弦相似向量库](docs/zh/s07-vector-store.md) | [Cosine-similarity vector store](docs/en/s07-vector-store.md) | 三个独立索引（chunks/entities/relations）+ 阈值 | ✅ |
 | s08 | 邻接图存储与子图 | Adjacency graph store + BFS | 无向图 + degree-priority BFS 子图 | ⏳ |
 | s09 | 实体关系抽取与 gleaning | Entity/relation extraction + gleaning | 分隔符解析 + 多轮续写循环 | ⏳ |
 | s10 | 描述归并 | Map-reduce summarization | 阈值决策 + 递归 LLM 归并 | ⏳ |
