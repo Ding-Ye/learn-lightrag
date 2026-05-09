@@ -69,9 +69,9 @@ npm run dev    # http://localhost:3000
 | s09 | [实体关系抽取与 gleaning](docs/zh/s09-extraction.md) | [Entity/relation extraction + gleaning](docs/en/s09-extraction.md) | 分隔符解析 + 多轮续写循环 | ✅ |
 | s10 | [描述归并](docs/zh/s10-summarization.md) | [Map-reduce summarization](docs/en/s10-summarization.md) | 阈值决策 + 递归 LLM 归并 | ✅ |
 | s11 | [双层检索四种模式](docs/zh/s11-query-modes.md) | [Dual-level retrieval, four modes](docs/en/s11-query-modes.md) | naive / local / global / hybrid | ✅ |
-| s_full | 端到端集成 | End-to-end integration | 16 步执行轨迹 + 全栈架构图 | ⏳ |
-| App. A | 提示工程的秘密 | Prompt-engineering secret sauce | gleaning + 双层关键词 + 归并阈值 | ⏳ |
-| App. B | 上游源码导读地图 | Upstream source-reading map | 每个上游文件 → 课程哪节 | ⏳ |
+| s_full | [端到端集成](docs/zh/s_full-integration.md) | [End-to-end integration](docs/en/s_full-integration.md) | 16 步执行轨迹 + 全栈架构图 | ✅ |
+| App. A | [提示工程的秘密](docs/zh/appendix-a-prompt-secrets.md) | [Prompt-engineering secret sauce](docs/en/appendix-a-prompt-secrets.md) | gleaning + 双层关键词 + 归并阈值 | ✅ |
+| App. B | [上游源码导读地图](docs/zh/appendix-b-upstream-map.md) | [Upstream source-reading map](docs/en/appendix-b-upstream-map.md) | 每个上游文件 → 课程哪节 | ✅ |
 
 ✅ = 已完成 / shipped；⏳ = 计划中 / planned。
 

@@ -63,9 +63,9 @@ Bilingual Markdown rendering with an upstream source pane on the side.
 | s09 | [Entity/relation extraction + gleaning](docs/en/s09-extraction.md) | Delimiter parsing + multi-round continuation | ✅ |
 | s10 | [Map-reduce summarization](docs/en/s10-summarization.md) | Threshold decision + recursive LLM merge | ✅ |
 | s11 | [Dual-level retrieval, four modes](docs/en/s11-query-modes.md) | naive / local / global / hybrid | ✅ |
-| s_full | End-to-end integration | 16-step trace + full-stack diagram | ⏳ |
-| App. A | Prompt-engineering secret sauce | Gleaning + dual-level keywords + merge threshold | ⏳ |
-| App. B | Upstream source-reading map | Every upstream file → which chapter touches it | ⏳ |
+| s_full | [End-to-end integration](docs/en/s_full-integration.md) | 16-step trace + full-stack diagram | ✅ |
+| App. A | [Prompt-engineering secret sauce](docs/en/appendix-a-prompt-secrets.md) | Gleaning + dual-level keywords + merge threshold | ✅ |
+| App. B | [Upstream source-reading map](docs/en/appendix-b-upstream-map.md) | Every upstream file → which chapter touches it | ✅ |
 
 ✅ shipped; ⏳ planned.
 
