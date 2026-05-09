@@ -25,6 +25,7 @@ jobs:
           - s03-doc-status
           - s04-chunking
           - s05-kv-store
+          - s06-embeddings
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5

@@ -84,6 +84,7 @@ function guessUpstreamFile(slug: string): string | null {
     "s03-doc-status": "s03-doc-status.py",
     "s04-chunking": "s04-chunking.py",
     "s05-kv-store": "s05-kv.py",
+    "s06-embeddings": "s06-embeddings.py",
   };
   return map[slug] ?? null;
 }

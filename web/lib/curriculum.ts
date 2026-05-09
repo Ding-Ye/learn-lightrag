@@ -64,7 +64,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "嵌入提供方与批处理",
       en: "Embedding provider with batching",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s07-vector-store",

@@ -57,7 +57,7 @@ Bilingual Markdown rendering with an upstream source pane on the side.
 | s03 | [Document status state machine](docs/en/s03-doc-status.md) | PENDING → PROCESSING → PROCESSED/FAILED | ✅ |
 | s04 | [Token-based chunking](docs/en/s04-chunking.md) | tiktoken + 1200/100 sliding window | ✅ |
 | s05 | [KV store with filter_keys](docs/en/s05-kv-store.md) | JSON persistence + per-key locking + FilterMissing | ✅ |
-| s06 | Embedding provider with batching | 128 batch + retry + Dim() introspection | ⏳ |
+| s06 | [Embedding provider with batching](docs/en/s06-embeddings.md) | 128 batch + retry + Dim() introspection | ✅ |
 | s07 | Cosine-similarity vector store | Three indices (chunks/entities/relations) + thresholding | ⏳ |
 | s08 | Adjacency graph store + BFS | Undirected graph + degree-priority BFS subgraph | ⏳ |
 | s09 | Entity/relation extraction + gleaning | Delimiter parsing + multi-round continuation | ⏳ |
