@@ -82,6 +82,7 @@ function guessUpstreamFile(slug: string): string | null {
     "s01-minimum-loop": "s01-lightrag.py",
     "s02-provider": "s02-openai.py",
     "s03-doc-status": "s03-doc-status.py",
+    "s04-chunking": "s04-chunking.py",
   };
   return map[slug] ?? null;
 }

@@ -49,7 +49,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "基于 token 的切分",
       en: "Token-based chunking with overlap",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s05-kv-store",
