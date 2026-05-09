@@ -1,0 +1,67 @@
+# s01 sample run transcripts (annotated)
+#
+# These are not byte-exact — LLM output is non-deterministic — they show the
+# SHAPE of a successful run so a learner can tell "I ran it correctly" vs
+# "something is broken".
+
+## Run 1 — mock provider (offline, deterministic)
+
+  $ go run . -provider mock -q "What did Eleanor patent in 1872?"
+
+  [s01] ingested doc "testdata/book.txt" (provider=mock)
+  === Answer ===
+  [mock] retrieved 3 chunks (book::chunk-1, book::chunk-0, book::chunk-2)
+  preview of top chunk: "Eleanor's most famous patent, granted in 1872, covered an improved theodolite ..."
+
+  === References ===
+  - book::chunk-1
+  - book::chunk-0
+  - book::chunk-2
+
+  [mode=naive]
+
+# What you should see
+# - "ingested" line on stderr
+# - "=== Answer ===" header on stdout
+# - 3 References (top-K = 3)
+# - mode line
+
+## Run 2 — verbose mock (shows retrieval debug)
+
+  $ go run . -provider mock -v -q "Where did Eleanor's papers end up?"
+
+  [s01] ingested doc "testdata/book.txt" (provider=mock)
+  [insert] doc=book chunks=5
+  [query] q="Where did Eleanor's papers end up?" topK=3 retrieved=[book::chunk-4 book::chunk-2 book::chunk-3]
+  === Answer ===
+  [mock] retrieved 3 chunks (book::chunk-4, book::chunk-2, book::chunk-3)
+  preview of top chunk: "Eleanor died in 1908. Her papers were donated to the Bramwell archive ..."
+
+  === References ===
+  - book::chunk-4
+  - book::chunk-2
+  - book::chunk-3
+
+  [mode=naive]
+
+## Run 3 — real OpenAI
+
+  $ OPENAI_API_KEY=sk-... go run . -q "Why was the Tarvin Highlands trip cancelled?"
+
+  [s01] ingested doc "testdata/book.txt" (provider=openai)
+  === Answer ===
+  The Tarvin Highlands expedition was cancelled because Scrooge's counting house
+  caught fire, which Eleanor recorded in her diary as "a cold lesson in trusting
+  wealthy patrons during the Christmas season" [book::chunk-3].
+
+  === References ===
+  - book::chunk-3
+  - book::chunk-0
+  - book::chunk-2
+
+  [mode=naive]
+
+# Notes
+# - Real OpenAI answers are paraphrased and cite chunk IDs in [brackets].
+# - Mock answers are deterministic — same query always returns the same Text.
+# - Either way the References list is the source of truth for "what the LLM saw".

@@ -1,0 +1,28 @@
+{
+  "phase": "B_done",
+  "started_at": "2026-05-09T17:54:00Z",
+  "phase_b_done_at": "2026-05-09T18:10:00Z",
+  "decisions": {
+    "upstream_url": "https://github.com/HKUDS/LightRAG",
+    "upstream_owner": "HKUDS",
+    "upstream_name": "LightRAG",
+    "upstream_license": "MIT",
+    "upstream_primary_language": "Python",
+    "upstream_stars": 34948,
+    "owner": "Ding-Ye",
+    "repo_name": "learn-lightrag",
+    "language": "go",
+    "chapter_strategy": "auto",
+    "visibility": "public"
+  },
+  "tooling": {
+    "gh_path": "/Users/yeding/bin/gh",
+    "go_path": "/Users/yeding/sdk/go-1.26.3/bin/go"
+  },
+  "dossier_path": "/Users/yeding/learn-lightrag/.learn/research-notes.md",
+  "has_llm_call_layer": true,
+  "completed_sessions": [],
+  "current_session": null,
+  "github_repo": null,
+  "last_commit": null
+}

@@ -1,0 +1,39 @@
+# Go binaries / caches
+*.exe
+*.test
+*.out
+*.prof
+# Compiled session binaries — each agents/sNN-<slug>/ builds to ./sNN
+/agents/s[0-9]*-*/s[0-9]*
+!/agents/s[0-9]*-*/*.go
+/agents/*/lightrag-data/
+/agents/*/.lightrag-cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+package-lock.json
+.npm/
+.vercel/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Skill state (kept locally, not pushed — but we do push .learn/ contents
+# explicitly so future agents can resume; ignore only stray transient files)
+/.learn/blocked.md.tmp
+/.learn/*.lock
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Build / test artifacts
+coverage.out
+coverage.html

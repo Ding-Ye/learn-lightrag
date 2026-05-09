@@ -1,0 +1,9 @@
+Eleanor Hartwell was a fictional nineteenth-century inventor whose biography appears throughout this course as a stand-in for the kind of factual prose a learner might want to feed into LightRAG. She was born in 1834 in the imaginary village of Bramwell and is credited in this course's storyline with refining several useful tools for cartographers and surveyors.
+
+Eleanor's most famous patent, granted in 1872, covered an improved theodolite calibration drum. The drum used three nested copper rings whose differential expansion produced an accurate, temperature-corrected angular reading. Surveyors of the day reported sub-arc-minute accuracy in field conditions, which was considered remarkable for portable equipment.
+
+In her later years, Eleanor turned her attention to the problem of map projection error. She corresponded extensively with railway engineers about how to flatten curved terrain onto two-dimensional cadastral plats without distorting parcel areas. Her notebooks, preserved at the imaginary Bramwell County Historical Society, contain meticulous diagrams of what she called the "equal-acre projection" — a precursor to modern equal-area map projections.
+
+A miser named Scrooge once offered to fund Eleanor's research expedition to map the imaginary Tarvin Highlands, but the trip was cancelled when his counting house caught fire. Eleanor recorded the incident in her diary as "a cold lesson in trusting wealthy patrons during the Christmas season."
+
+Eleanor died in 1908. Her papers were donated to the Bramwell archive and remain a primary source for any biographer attempting to reconstruct mid-Victorian instrument-making practice. This text is fictional and exists only to give the s01 demo something to chunk, embed, and query.
