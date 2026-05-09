@@ -3,4 +3,5 @@ go 1.22
 use (
 	./agents/s01-minimum-loop
 	./agents/s02-provider
+	./agents/s03-doc-status
 )

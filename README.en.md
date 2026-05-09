@@ -54,7 +54,7 @@ Bilingual Markdown rendering with an upstream source pane on the side.
 | M | [Multi-model guide](docs/en/multi-model.md) | OpenAI / Anthropic / Bedrock / Ollama swap | ⏳ |
 | s01 | [Minimum RAG loop](docs/en/s01-minimum-loop.md) | End-to-end 5-stage pipeline (chunk → embed → store → retrieve → complete) | ✅ |
 | s02 | [Provider interface](docs/en/s02-provider.md) | OpenAI chat completion + retry + mock provider | ✅ |
-| s03 | Document status state machine | PENDING → PROCESSING → PROCESSED/FAILED | ⏳ |
+| s03 | [Document status state machine](docs/en/s03-doc-status.md) | PENDING → PROCESSING → PROCESSED/FAILED | ✅ |
 | s04 | Token-based chunking | tiktoken + 1200/100 sliding window | ⏳ |
 | s05 | KV store with filter_keys | JSON persistence + per-key locking + FilterMissing | ⏳ |
 | s06 | Embedding provider with batching | 128 batch + retry + Dim() introspection | ⏳ |

@@ -40,7 +40,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s03-doc-status",
     num: "s03",
     title: { zh: "文档状态机", en: "Document status state machine" },
-    available: false,
+    available: true,
   },
   {
     slug: "s04-chunking",

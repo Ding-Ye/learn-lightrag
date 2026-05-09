@@ -81,6 +81,7 @@ function guessUpstreamFile(slug: string): string | null {
   const map: Record<string, string> = {
     "s01-minimum-loop": "s01-lightrag.py",
     "s02-provider": "s02-openai.py",
+    "s03-doc-status": "s03-doc-status.py",
   };
   return map[slug] ?? null;
 }
