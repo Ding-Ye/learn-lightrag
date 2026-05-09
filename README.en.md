@@ -61,7 +61,7 @@ Bilingual Markdown rendering with an upstream source pane on the side.
 | s07 | [Cosine-similarity vector store](docs/en/s07-vector-store.md) | Three indices (chunks/entities/relations) + thresholding | ✅ |
 | s08 | [Adjacency graph store + BFS](docs/en/s08-graph-store.md) | Undirected graph + degree-priority BFS subgraph | ✅ |
 | s09 | [Entity/relation extraction + gleaning](docs/en/s09-extraction.md) | Delimiter parsing + multi-round continuation | ✅ |
-| s10 | Map-reduce summarization | Threshold decision + recursive LLM merge | ⏳ |
+| s10 | [Map-reduce summarization](docs/en/s10-summarization.md) | Threshold decision + recursive LLM merge | ✅ |
 | s11 | Dual-level retrieval, four modes | naive / local / global / hybrid | ⏳ |
 | s_full | End-to-end integration | 16-step trace + full-stack diagram | ⏳ |
 | App. A | Prompt-engineering secret sauce | Gleaning + dual-level keywords + merge threshold | ⏳ |

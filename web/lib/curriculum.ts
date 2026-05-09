@@ -100,7 +100,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "描述归并 (map-reduce)",
       en: "Map-reduce description summarization",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s11-query-modes",

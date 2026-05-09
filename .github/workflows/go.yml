@@ -29,6 +29,7 @@ jobs:
           - s07-vector-store
           - s08-graph-store
           - s09-extraction
+          - s10-summarization
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5

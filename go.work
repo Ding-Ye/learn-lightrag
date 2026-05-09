@@ -10,4 +10,5 @@ use (
 	./agents/s07-vector-store
 	./agents/s08-graph-store
 	./agents/s09-extraction
+	./agents/s10-summarization
 )
