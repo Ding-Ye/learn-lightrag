@@ -9,12 +9,11 @@
 /agents/*/lightrag-data/
 /agents/*/.lightrag-cache/
 
-# Node / Next.js
+# Node / Next.js — package-lock.json IS committed for reproducible CI installs
 node_modules/
 .next/
 out/
 *.tsbuildinfo
-package-lock.json
 .npm/
 .vercel/
 
