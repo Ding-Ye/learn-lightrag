@@ -33,6 +33,20 @@ go test -v ./...
 
 Go ≥ 1.22 required.
 
+### Multi-model swap (1-line config)
+
+s02's `OpenAIProvider` and s06's `OpenAIEmbedder` both accept `WithBaseURL(...)`, so any OpenAI-compatible endpoint is a one-line swap:
+
+```bash
+export DEEPSEEK_API_KEY=sk-...
+# In your demo / pipeline:
+# prov := NewOpenAIProvider(WithBaseURL("https://api.deepseek.com/v1"),
+#                            WithModel("deepseek-chat"),
+#                            WithAPIKey(os.Getenv("DEEPSEEK_API_KEY")))
+```
+
+8 profiles ready out of the box: OpenAI / DeepSeek / Moonshot / Qwen (DashScope) / Groq / OpenRouter / self-hosted vLLM / Anthropic (via OpenRouter proxy, or write an 80-LOC native adapter). See [Multi-model guide](docs/en/multi-model.md).
+
 ---
 
 ## Doc viewer
@@ -51,7 +65,7 @@ Bilingual Markdown rendering with an upstream source pane on the side.
 
 | # | Chapter | Mechanism taught | Status |
 |---|---|---|---|
-| M | [Multi-model guide](docs/en/multi-model.md) | OpenAI / Anthropic / Bedrock / Ollama swap | ⏳ |
+| M | [Multi-model guide](docs/en/multi-model.md) | DeepSeek / Qwen / Moonshot / self-hosted swap | ✅ |
 | s01 | [Minimum RAG loop](docs/en/s01-minimum-loop.md) | End-to-end 5-stage pipeline (chunk → embed → store → retrieve → complete) | ✅ |
 | s02 | [Provider interface](docs/en/s02-provider.md) | OpenAI chat completion + retry + mock provider | ✅ |
 | s03 | [Document status state machine](docs/en/s03-doc-status.md) | PENDING → PROCESSING → PROCESSED/FAILED | ✅ |

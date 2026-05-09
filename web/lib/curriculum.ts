@@ -16,10 +16,10 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "multi-model",
     num: "M",
     title: {
-      zh: "多模型接入指南（OpenAI / Anthropic / Bedrock / Ollama …）",
-      en: "Multi-model guide (OpenAI / Anthropic / Bedrock / Ollama …)",
+      zh: "多模型接入指南（DeepSeek / Qwen / Moonshot / 自托管 …）",
+      en: "Multi-model guide (DeepSeek / Qwen / Moonshot / self-hosted …)",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s01-minimum-loop",

@@ -39,6 +39,20 @@ go test -v ./...
 
 需要 Go ≥ 1.22。/ Go ≥ 1.22 required.
 
+### 多模型支持 / Multi-model swap (1-line config)
+
+`s02` 的 `OpenAIProvider` 和 `s06` 的 `OpenAIEmbedder` 都接收 `WithBaseURL(...)`，所以任意 OpenAI-compatible 端点都是 1 行切换：
+
+```bash
+export DEEPSEEK_API_KEY=sk-...
+# 在你的 demo / pipeline 里：
+# prov := NewOpenAIProvider(WithBaseURL("https://api.deepseek.com/v1"),
+#                            WithModel("deepseek-chat"),
+#                            WithAPIKey(os.Getenv("DEEPSEEK_API_KEY")))
+```
+
+支持 8 个 profile：OpenAI / DeepSeek / Moonshot / Qwen (DashScope) / Groq / OpenRouter / 自托管 vLLM / Anthropic（OpenRouter 代理或 80 行原生 adapter）。详见 [多模型接入指南](docs/zh/multi-model.md)。
+
 ---
 
 ## 文档站 / Doc viewer
@@ -57,7 +71,7 @@ npm run dev    # http://localhost:3000
 
 | # | 章节 (zh) | Chapter (en) | 教什么机制 | 状态 |
 |---|---|---|---|---|
-| M | [多模型接入指南](docs/zh/multi-model.md) | [Multi-model guide](docs/en/multi-model.md) | OpenAI / Anthropic / Bedrock / Ollama 一键切换 | ⏳ |
+| M | [多模型接入指南](docs/zh/multi-model.md) | [Multi-model guide](docs/en/multi-model.md) | DeepSeek / Qwen / Moonshot / 自托管 一键切换 | ✅ |
 | s01 | [最小 RAG 闭环](docs/zh/s01-minimum-loop.md) | [Minimum RAG loop](docs/en/s01-minimum-loop.md) | 端到端 5 阶段管道（chunk → embed → store → retrieve → complete） | ✅ |
 | s02 | [提供方接口](docs/zh/s02-provider.md) | [Provider interface](docs/en/s02-provider.md) | OpenAI 聊天补全 + 重试 + mock provider | ✅ |
 | s03 | [文档状态机](docs/zh/s03-doc-status.md) | [Document status state machine](docs/en/s03-doc-status.md) | PENDING → PROCESSING → PROCESSED/FAILED | ✅ |
