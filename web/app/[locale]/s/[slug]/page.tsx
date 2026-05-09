@@ -89,6 +89,7 @@ function guessUpstreamFile(slug: string): string | null {
     "s08-graph-store": "s08-graph.py",
     "s09-extraction": "s09-extraction.py",
     "s10-summarization": "s10-summarization.py",
+    "s11-query-modes": "s11-query.py",
   };
   return map[slug] ?? null;
 }

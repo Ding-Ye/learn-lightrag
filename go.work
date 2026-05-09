@@ -11,4 +11,5 @@ use (
 	./agents/s08-graph-store
 	./agents/s09-extraction
 	./agents/s10-summarization
+	./agents/s11-query-modes
 )

@@ -109,7 +109,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "双层检索四种模式",
       en: "Dual-level retrieval, four modes",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s_full-integration",
