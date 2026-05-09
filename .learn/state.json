@@ -1,10 +1,14 @@
 {
-  "phase": "E_done",
+  "phase": "completed",
   "started_at": "2026-05-09T17:54:00Z",
   "phase_b_done_at": "2026-05-09T18:10:00Z",
   "phase_c_done_at": "2026-05-09T18:18:00Z",
   "phase_d_done_at": "2026-05-09T19:05:00Z",
   "phase_e_done_at": "2026-05-09T20:50:00Z",
+  "phase_f_done_at": "2026-05-09T21:45:00Z",
+  "phase_g_done_at": "2026-05-09T22:05:00Z",
+  "phase_h_done_at": "2026-05-09T22:35:00Z",
+  "completed_at": "2026-05-09T22:35:00Z",
   "decisions": {
     "upstream_url": "https://github.com/HKUDS/LightRAG",
     "upstream_owner": "HKUDS",
@@ -25,6 +29,7 @@
   },
   "dossier_path": "/Users/yeding/learn-lightrag/.learn/research-notes.md",
   "plan_path": "/Users/yeding/learn-lightrag/.learn/plan.md",
+  "quality_report_path": "/Users/yeding/learn-lightrag/QUALITY-REPORT.md",
   "has_llm_call_layer": true,
   "github_repo": "Ding-Ye/learn-lightrag",
   "github_url": "https://github.com/Ding-Ye/learn-lightrag",
@@ -39,9 +44,17 @@
     "s08-graph-store",
     "s09-extraction",
     "s10-summarization",
-    "s11-query-modes"
+    "s11-query-modes",
+    "s_full-integration",
+    "appendix-a-prompt-secrets",
+    "appendix-b-upstream-map",
+    "multi-model"
   ],
-  "current_session": "s_full-integration",
-  "last_commit": null,
-  "phase_e_notes": "All 11 code sessions shipped. s11 subagent hit usage limit during final reporting but all files were written before the limit. Verification still passed: go vet/build/test green, heading parity 6=6, no cross-session imports."
+  "qa_summary": {
+    "p0_count": 0,
+    "p1_count": 1,
+    "p2_count": 1,
+    "p1_resolved": true,
+    "p2_remaining": "P2.1 testdata/expected.txt convention inconsistency — only s01 has it; left as-is (cosmetic)"
+  }
 }
